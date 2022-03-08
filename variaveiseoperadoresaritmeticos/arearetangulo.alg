@@ -1,5 +1,5 @@
-algoritmo "arearetangulo
-// Calcula a área do retângulo
+algoritmo "arearetangulo"
+// Calcula a Ã¡rea do retÃ¢ngulo
 // autor: Nicolas Garcia
 // Data atual: 08/03/22
 
@@ -12,11 +12,11 @@ Inicio
 //entrada
 
 escreval ("----------------------------")
-escreval ("Digite a base do retângulo :")
+escreval ("Digite a base do retÃ¢ngulo :")
 escreval ("----------------------------")
 leia(base)
 escreval ("------------------------------")
-escreval ("Digite a altura do retângulo :")
+escreval ("Digite a altura do retÃ¢ngulo :")
 escreval ("------------------------------")
 leia(alt)
 
@@ -24,9 +24,10 @@ leia(alt)
 
 area<-base*alt
 
-//saída
-
-escreval ("A área do retângulo é:", area)
+//saÃ­da
+escreval ("------------------------------")
+escreval ("A Ã¡rea do retÃ¢ngulo Ã©:", area)
+escreval ("------------------------------")
 
 
 
