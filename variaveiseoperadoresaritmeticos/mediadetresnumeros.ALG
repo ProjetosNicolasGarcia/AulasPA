@@ -1,5 +1,5 @@
-Algoritmo "semnome"
-//esse programa exige três números e determina a média deles
+Algoritmo "mediadetresnumeros"
+//esse programa exige trÃªs nÃºmeros e determina a mÃ©dia deles
 //criador: Nicolas Garcia
 //Data atual: 08/03/2022 - Feliz dia das mulheres <3
 Var
@@ -12,17 +12,17 @@ Inicio
 //Entrada
 
 escreval ("----------------------------")
-escreval ("Digite o primeiro número:",n1)
+escreval ("Digite o primeiro nÃºmero:",n1)
 escreval ("----------------------------")
 leia(n1)
 
 escreval ("----------------------------")
-escreval ("Digite o segundo número:",n2)
+escreval ("Digite o segundo nÃºmero:",n2)
 escreval ("----------------------------")
 leia(n2)
 
 escreval ("----------------------------")
-escreval ("Digite o terceiro número:",n3)
+escreval ("Digite o terceiro nÃºmero:",n3)
 escreval ("----------------------------")
 leia(n3)
 
@@ -30,10 +30,10 @@ leia(n3)
 
 media<-(n1+n2+n3/3)
 
-//saída
+//saÃ­da
 
 escreval ("----------------------------")
-escreval ("A média dos números digitados é:",media)
+escreval ("A mÃ©dia dos nÃºmeros digitados Ã©:",media)
 escreval ("----------------------------")
 
 
