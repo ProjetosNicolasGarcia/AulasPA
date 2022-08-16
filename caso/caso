@@ -1,1 +1,49 @@
+Algoritmo "permissaoparavoto"
+// Disciplina   : PA
+// Professor   : Cintia Pinho
+// Descrição   : Calcula se uma pessoa está apta para votar de acordo com a idade
+// Autor(a)    : Nicolas Garcia de Souza Santos
+// Data atual  : 16/08/2022
+Var
+anoa,anon,idade: inteiro
 
+
+Inicio
+escreval("Digite o ano atual")
+leia(anoa)
+
+escreval("Digite o seu ano de nascimento")
+leia(anon)
+ idade<-(anoa-anon)
+
+escolha idade
+
+   caso 1
+
+        se (idade>18) e (idade<70) entao
+        escreval("Você é obrigado a votar")
+        fimse
+   caso 2
+
+        se (idade>=16) e (idade<18) entao
+        escreval("Seu voto é facultativo")
+        fimse
+   caso 3
+
+        se idade<18 entao
+        escreval("Você não pode votar")
+        fimse
+   caso 4
+
+        se idade>70 entao
+        escreval("Seu voto é facultativo")
+        fimse
+
+fimescolha
+
+
+
+
+
+
+Fimalgoritmo
