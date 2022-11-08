@@ -10,3 +10,5 @@ auladealgoritmo2022
 
 
 https://garticphone.com/pt/?c=00f0f91404
+
+https://makeitmeme.com/join/GRDCI
